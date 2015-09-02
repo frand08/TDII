@@ -1,0 +1,67 @@
+17:23:49 **** Incremental Build of configuration Debug for project TP4_TD2 ****
+make -r all 
+make -C ./lpc_chip_175x_6x
+make[1]: se ingresa al directorio `/home/frand08/Projects_Git/TP4-TDII/TP4_TD2/lpc_chip_175x_6x'
+arm-none-eabi-ar -r ./out/liblpc_chip_175x_6x.a ./out/obj/lcd_17xx_40xx.o ./out/obj/gpioint_17xx_40xx.o ./out/obj/can_17xx_40xx.o ./out/obj/eeprom_17xx_40xx.o ./out/obj/ritimer_17xx_40xx.o ./out/obj/gpdma_17xx_40xx.o ./out/obj/rtc_17xx_40xx.o ./out/obj/stopwatch_17xx_40xx.o ./out/obj/i2s_17xx_40xx.o ./out/obj/wwdt_17xx_40xx.o ./out/obj/dac_17xx_40xx.o ./out/obj/adc_17xx_40xx.o ./out/obj/pmu_17xx_40xx.o ./out/obj/crc_17xx_40xx.o ./out/obj/sdmmc_17xx_40xx.o ./out/obj/clock_17xx_40xx.o ./out/obj/enet_17xx_40xx.o ./out/obj/uart_17xx_40xx.o ./out/obj/ssp_17xx_40xx.o ./out/obj/pwm_17xx_40xx.o ./out/obj/timer_17xx_40xx.o ./out/obj/iocon_17xx_40xx.o ./out/obj/i2c_17xx_40xx.o ./out/obj/spi_17xx_40xx.o ./out/obj/ring_buffer.o ./out/obj/cmp_17xx_40xx.o ./out/obj/chip_17xx_40xx.o ./out/obj/emc_17xx_40xx.o ./out/obj/gpio_17xx_40xx.o ./out/obj/sysinit_17xx_40xx.o ./out/obj/sysctl_17xx_40xx.o ./out/obj/iap.o ./out/obj/sdc_17xx_40xx.o
+arm-none-eabi-size ./out/liblpc_chip_175x_6x.a
+   text	   data	    bss	    dec	    hex	filename
+      0	      0	      0	      0	      0	lcd_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+      0	      0	      0	      0	      0	gpioint_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+   8692	      0	      0	   8692	   21f4	can_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+      0	      0	      0	      0	      0	eeprom_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+    240	      0	      0	    240	     f0	ritimer_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+   2272	     96	      8	   2376	    948	gpdma_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+    748	      0	      0	    748	    2ec	rtc_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+    388	      0	     12	    400	    190	stopwatch_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+   1464	      0	      0	   1464	    5b8	i2s_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+     96	      0	      0	     96	     60	wwdt_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+    144	      0	      0	    144	     90	dac_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+    932	      0	      0	    932	    3a4	adc_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+    264	      0	      0	    264	    108	pmu_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+      0	      0	      0	      0	      0	crc_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+      0	      0	      0	      0	      0	sdmmc_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+   1612	      0	      0	   1612	    64c	clock_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+   1116	      0	      4	   1120	    460	enet_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+   2304	      0	      1	   2305	    901	uart_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+   2288	      0	      0	   2288	    8f0	ssp_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+    364	      0	      0	    364	    16c	pwm_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+    308	      0	      0	    308	    134	timer_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+    296	      0	      0	    296	    128	iocon_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+   3680	     84	    120	   3884	    f2c	i2c_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+   1044	      0	      0	   1044	    414	spi_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+    980	      0	      0	    980	    3d4	ring_buffer.o (ex ./out/liblpc_chip_175x_6x.a)
+      0	      0	      0	      0	      0	cmp_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+    176	      0	      0	    176	     b0	chip_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+      0	      0	      0	      0	      0	emc_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+      0	      0	      0	      0	      0	gpio_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+    484	      0	      0	    484	    1e4	sysinit_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+     48	      0	      0	     48	     30	sysctl_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+    556	      0	      0	    556	    22c	iap.o (ex ./out/liblpc_chip_175x_6x.a)
+      0	      0	      0	      0	      0	sdc_17xx_40xx.o (ex ./out/liblpc_chip_175x_6x.a)
+make[1]: se sale del directorio `/home/frand08/Projects_Git/TP4-TDII/TP4_TD2/lpc_chip_175x_6x'
+make -C ./lpc_board_nxp_lpcxpresso_1769
+make[1]: se ingresa al directorio `/home/frand08/Projects_Git/TP4-TDII/TP4_TD2/lpc_board_nxp_lpcxpresso_1769'
+arm-none-eabi-ar -r ./out/liblpc_board_nxp_lpcxpresso_1769.a ./out/obj/board.o ./out/obj/board_sysinit.o ./out/obj/lpc_phy_smsc87x0.o
+arm-none-eabi-size ./out/liblpc_board_nxp_lpcxpresso_1769.a
+   text	   data	    bss	    dec	    hex	filename
+   2128	      0	      0	   2128	    850	board.o (ex ./out/liblpc_board_nxp_lpcxpresso_1769.a)
+    196	      0	      0	    196	     c4	board_sysinit.o (ex ./out/liblpc_board_nxp_lpcxpresso_1769.a)
+    860	      0	     20	    880	    370	lpc_phy_smsc87x0.o (ex ./out/liblpc_board_nxp_lpcxpresso_1769.a)
+make[1]: se sale del directorio `/home/frand08/Projects_Git/TP4-TDII/TP4_TD2/lpc_board_nxp_lpcxpresso_1769'
+make -C ./app	
+make[1]: se ingresa al directorio `/home/frand08/Projects_Git/TP4-TDII/TP4_TD2/app'
+arm-none-eabi-gcc -DDEBUG -DCORE_M3 -D__USE_LPCOPEN -D__LPC17XX__ -D__CODE_RED -I./inc -I../lpc_chip_175x_6x/inc -I../lpc_board_nxp_lpcxpresso_1769/inc -Wall -ggdb3 -mcpu=cortex-m3 -mthumb -c src/main.c -o out/obj/main.o 
+src/main.c: In function 'Incializacion_Reload_Ticks':
+src/main.c:66:9: warning: assignment makes integer from pointer without a cast
+  estado = I2C_ReadByte(0x00,EEPROM_REGISTER_ADDRESS); //Siempre escribimos y leemos en el registro 0
+         ^
+arm-none-eabi-gcc -L../lpc_board_nxp_lpcxpresso_1769/out -L../lpc_chip_175x_6x/out  -nostdlib -fno-builtin -mcpu=cortex-m3 -mthumb -Xlinker -Map=./out/app.map -T./ld/lpc17xx.ld -o ./out/app.axf ./out/obj/cr_startup_lpc175x_6x.o ./out/obj/crp.o ./out/obj/gpio.o ./out/obj/main.o ./out/obj/sysinit.o ./out/obj/systick.o ./out/obj/i2c.o -llpc_board_nxp_lpcxpresso_1769 -llpc_chip_175x_6x  
+/usr/local/lpcxpresso_7.7.2_379/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-sbrkr.o): In function `_sbrk_r':
+sbrkr.c:(.text._sbrk_r+0xc): undefined reference to `_sbrk'
+collect2: error: ld returned 1 exit status
+make[1]: se sale del directorio `/home/frand08/Projects_Git/TP4-TDII/TP4_TD2/app'
+make[1]: *** [app] Error 1
+make: *** [all] Error 2
+
+17:23:49 Build Finished (took 302ms)
+
